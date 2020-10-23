@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clicker 2.0</title>
+    <link rel="stylesheet" href="clicker.css">
+</head>
+<body>
+    <div id="clickZone">
+        <div id="game">
+            <div id="gamePlay">
+                <div id="infoGame">
+                    <div id="money">0</div> 
+                    <div id="minions">
+                        <span id="minions_have">0</span> /
+                        <span id="minions_max">50</span> Minions
+                    </div>
+                </div>
+                <input id="buyMinion" type="image" src="minionsBuy.jpg" width="370" height="170" border="0">
+            </div>
+            <div id="office">
+                <button id="upgradeOficce" disabled="true">Upgrade Office</button>     
+            </div>
+            <div id="HDD">
+                <button id="addHDD" disabled="true">Add HDD</button>
+            </div>
+        </div>
+        <div id="clicker">
+            <div id="codeLines">
+                <span id="code_lines">0</span> /     
+                <span id="code_lines_max">10000000</span>  
+            </div><!--cambiar a button para poder ponerle cosas-->
+            <input id="write_code" type="image" src="boton.jpg" width="380" height="50" border="3"><!--390-100 Sí, tengo que ponerlo en el CSS...-->
+        </div>        
+    </div>
+    <div id="powerZone">
+        <div id="powerMoney">
+            <img src="minionBanana.jpg" height="190">
+        </div>
+        <div id="powerMoneyCount">
+            <div id="powerMoneyProductivity">
+                <button id="addMoney" disabled="true">Productivity x 4</button>
+            </div>
+            <div id="powerCostMoneyProductivity">1000</div>
+            <div id="powerQuantityProductivity">0</div>
+        </div>
+        <div id="powerFormer">
+            <img src="gru.jpg" height="190">
+        </div>
+        <div id="powerFormerCount">
+            <div id="powerFormerProductivity">
+                <button id="addFormer" disabled="true">Productivity x 10</button>
+            </div>
+            <div id="powerCostFormerProductivity">3000</div>
+            <div id="powerQuantityFormerProductivity">0</div>
+        </div>
+        <div id="powerCoffe">
+            <img src="minionCoffe.jpg" height="190">
+        </div>
+        <div id="powerCoffeCount">
+            <div id="powerCoffeProductivity">
+                <button id="addCoffe" disabled="true">Productivity x 2</button>
+            </div>
+            <div id="powerCostCoffeProductivity">400</div>
+            <div id="powerQuantityCoffeProductivity">0</div>
+        </div>
+    </div>
+    <div id="infoZone">
+        <div id="scrumZone">
+            <div id="scrumInfo">Increase the productivity of minions x4</div>
+            <div id="scrumOk">Off</div>
+            <button id="scrumButton" disabled="true">SCRUM</button>
+        </div>
+        <div id="ctoZone">
+            <div id="ctoInfo">Increase the productivity of the minions x50</div>
+            <div id="ctoOk">Off</div>
+            <button id="ctoButton" disabled="true">CTO</button>
+        </div>
+        <div id="pingPongZone">
+            <div id="pingPongInfo">Increase the productivity of the minions x2</div>
+            <div id="pingPongOk">Off</div>
+            <button id="pingPongButton" disabled="true">Ping Pong</button>
+        </div>
+        <div id="reFruitingZone">
+            <div id="reFruitingInfo">Increase the productivity of the minions x3</div>
+            <div id="reFruitingOk">Off</div>
+            <button id="reFruitingButton" disabled="true">Refruiting</button>
+        </div>
+        <div id="vendorZone">
+            <div id="vendorInfo">Increase the price of the code x 2</div>
+            <div id="vendorOk">Off</div>
+            <button id="vendorButton" disabled="true">Vendor</button>
+        </div>
+        <div id="communicationCampaignZone">
+            <div id="communicationCampaignInfo">Increase the price of the code x 2</div>
+            <div id="communicationCampaignOk">Off</div>
+            <button id="communicationCampaignButton" disabled="true">Communication Campaign</button>
+        </div>
+        <div id="agencyZone">
+            <div id="agencyInfo">Increase the price of the code x 2</div>
+            <div id="agencyOk">Off</div>
+            <button id="agencyButton" disabled="true">Agency</button>
+        </div>
+        <div id="compressionSystemZone">
+            <div id="compressionSystemInfo">Double the capacity of our hard drives</div>
+            <div id="compressionSystemOk">Off</div>
+            <button id="compressionSystemButton" disabled="true">Compression System</button>
+        </div>
+    </div>
+    <script src="clicker.js"></script>  
+</body>
+</html>

@@ -1,0 +1,202 @@
+body{
+    /*background-image: url(https://wallpaperaccess.com/full/104232.jpg);    
+    text-shadow: 1px 1px rgb(228, 223, 223);*/
+    background-repeat: no-repeat;
+    background-color: rgb(247, 247, 102);
+    
+    width: 100%;    
+}
+
+/* cajas principales*/
+#clickZone, #powerZone, #infoZone{
+    /*border: solid 1px black;*/
+    margin: 2px;
+}
+
+#clickZone{/* 1er cuadro*/
+    width: 400px;
+    height: 600px;
+    float: left;
+}
+
+#game, #clicker{
+    border: solid 2px black;
+    margin: 3px;    
+    float: left;
+}
+
+#game{
+    width: 390px;
+    height: 380px;
+}
+
+#gamePlay{
+    margin: 3px;
+    /*border: solid 2px black;*/
+    width: 380px;
+    height: 310px;
+}
+
+#money, #minions{
+    margin: 3px;
+    border: solid 2px black;
+    width: 360px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#money{
+    color: white;
+    background-image: url(https://media.telemundo47.com/images/652*367/remesas+de+dolares.jpg);
+
+}
+
+#infoGame{
+    margin: 3px;
+    border: solid 2px black;
+    width: 370px;
+    height: 158px;
+}
+
+#buyMinion{
+    margin: 3px;
+    border: solid 2px black;
+    width: 370px;
+    height: 130px;
+}
+
+#office, #HDD{
+    margin: 5px;/*bajar a tres con borde*/
+    width: 185px;
+    height: 47px;
+    /*border: solid 2px black;*/
+    float: left;
+}
+
+#upgradeOficce, #addHDD{
+    height: 47px;
+    width: 185px;
+    background-color: beige;
+    font-size: 15px;
+}
+
+#clicker{
+    border: solid 2px black;
+    margin: 3px;
+    width: 390px;
+    height: 200px;
+}
+
+#codeLines{
+    border: solid 2px black;
+    margin: 3px;
+    height: 30px;
+    padding-top: 14px;
+    text-align: center;
+}
+
+#write_code{
+    border: solid 2px black;
+    margin: 3px;
+    height: 135px;
+}
+/*cajas power y info*/
+#powerZone, #infoZone{
+    width: 450px;
+    height: 600px;
+    float: left;
+}
+
+/* cajas principales power*/
+#powerMoney, #powerFormer, #powerCoffe{
+    border: solid 2px black;
+    margin: 3px;
+    width: 135px;
+    height: 190px;
+    float: left;
+}
+
+#powerMoneyCount, #powerFormerCount, #powerCoffeCount{
+    border: solid 2px black;
+    margin: 3px;
+    width: 290px;
+    height: 190px;
+    float: left;
+}
+
+#powerMoneyProductivity, #powerFormerProductivity, #powerCoffeProductivity{
+    /*border: solid 2px black;*/
+    margin: 3px;
+    width: 280px;
+    height: 90px;
+    float: left;
+}
+/* botones add power*/
+#addMoney, #addFormer, #addCoffe{
+    width: 284px;
+    height: 90px;
+    font-size: 25px;
+    background-color: beige;
+}
+/* caja dinero para powers*/
+#powerCostMoneyProductivity, #powerCostFormerProductivity, #powerCostCoffeProductivity{
+    border: solid 2px black;
+    margin: 3px;
+    width: 200px;
+    height: 61px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 23px;
+    float: left;
+}
+/* caja cantitad de powers*/
+#powerQuantityProductivity, #powerQuantityFormerProductivity, #powerQuantityCoffeProductivity{
+    border: solid 2px black;
+    margin: 3px;
+    width: 70px;
+    height: 61px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 23px;
+    float: left;
+}
+/* caja info zone*/
+#scrumZone, #ctoZone, #pingPongZone, #reFruitingZone, #vendorZone, #communicationCampaignZone, #agencyZone, #compressionSystemZone{
+    border: solid 2px black;
+    margin: 3px;
+    width: 440px;
+    height: 65px;
+    float: left;
+}
+/* cajas de info de info zone*/
+#scrumInfo, #ctoInfo, #pingPongInfo, #reFruitingInfo, #vendorInfo, #communicationCampaignInfo, #agencyInfo, #compressionSystemInfo{
+    border: solid 2px black;
+    margin: 3px;
+    width: 385px;
+    height: 25px;
+    float: left;
+    Text-align: center;
+    font-size: 18px;
+    padding-top: 2px;
+}
+/* cajas de check del info zone*/
+#scrumOk, #ctoOk, #pingPongOk, #reFruitingOk, #vendorOk, #communicationCampaignOk, #agencyOk, #compressionSystemOk{
+    border: solid 2px black;
+    margin: 3px;
+    width: 35px;
+    height: 25px;
+    float: left;
+    padding-top: 2px;
+    Text-align: center;
+    font-size: 18px;
+    background-color: rgb(245, 96, 96);
+}
+/* cajas de botones del info zone*/
+#scrumButton, #ctoButton, #pingPongButton, #reFruitingButton, #vendorButton, #communicationCampaignButton, #agencyButton, #compressionSystemButton{
+    width: 435px;
+    margin: 2px;
+    height: 25px;
+    background-color: beige;
+}
